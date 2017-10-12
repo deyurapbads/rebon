@@ -149,11 +149,11 @@ public class Instagram4Android {
                     .experiments(InstagramConstants.DEVICE_EXPERIMENTS)
                     .build();
 
-            this.sendRequest(new InstagramSyncFeaturesRequest(syncFeatures));
-            this.sendRequest(new InstagramAutoCompleteUserListRequest());
+           // this.sendRequest(new InstagramSyncFeaturesRequest(syncFeatures));
+           // this.sendRequest(new InstagramAutoCompleteUserListRequest());
             //this.sendRequest(new InstagramTimelineFeedRequest());
-            this.sendRequest(new InstagramGetInboxRequest());
-            this.sendRequest(new InstagramGetRecentActivityRequest());
+           // this.sendRequest(new InstagramGetInboxRequest());
+            //this.sendRequest(new InstagramGetRecentActivityRequest());
         }
 
 
