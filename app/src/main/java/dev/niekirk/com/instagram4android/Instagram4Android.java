@@ -89,6 +89,9 @@ public class Instagram4Android {
         this.uuid = InstagramGenericUtil.generateUuid(true);
 
         client = new OkHttpClient.Builder()
+                .connectTimeout(60, TimeUnit.SECONDS)
+                .writeTimeout(60, TimeUnit.SECONDS)
+                .readTimeout(60, TimeUnit.SECONDS)
                 .cookieJar(new CookieJar() {
 
                     @Override
