@@ -16,7 +16,7 @@ import dev.niekirk.com.instagram4android.requests.payload.InstagramLoginResult;
 import dev.niekirk.com.instagram4android.requests.payload.InstagramSyncFeaturesPayload;
 import dev.niekirk.com.instagram4android.util.InstagramGenericUtil;
 import dev.niekirk.com.instagram4android.util.InstagramHashUtil;
-
+import java.util.concurrent.TimeUnit;
 import java.io.IOException;
 import java.io.Serializable;
 import java.util.ArrayList;
